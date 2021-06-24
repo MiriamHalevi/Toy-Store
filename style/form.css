@@ -1,0 +1,94 @@
+
+  fieldset{
+      border-color:rgb(194, 64, 133); ;
+  }
+  
+  .form{
+    border: 8px solid #c6cfd8;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 auto;
+background-color: #c88f9ded;
+  }
+ 
+  .title{
+      color:rgb(71, 84, 158);
+    font-size: 29px;
+    padding-right: 15px;
+  }
+  
+  .btn {
+    position: relative;
+    vertical-align: top;
+    height: 40px;
+    width: 25%;
+    padding: 0;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    background: #4d4d4d;
+    border: 0;
+    border-bottom: 2px solid #d0d0d0;
+    cursor: pointer;
+      margin-left: auto;
+  }
+ .allInput{
+   margin-right:1%;
+   width:100% ;
+ }
+  input:not([type="submit"]){
+    flex: 1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+  p {
+    display: flex;
+  }
+  
+  label {
+      color:rgb(71, 84, 158);
+      width: 7em;
+      margin-right: .5em;
+  }
+  
+  @media (max-width: 700px) {
+    p {
+      display: block;
+    }
+   
+    
+    input[type="submit"]{
+      width: 100px;
+    }
+  }
+  legend{
+      color: crimson;
+      border:rgb(240, 6, 131);
+  }
+  #bgImg{
+    width:25%;
+     height:25%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  

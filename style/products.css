@@ -1,0 +1,43 @@
+.fixed-size-container {
+  
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+section>div{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid black;
+    width: 250px;
+    height: 350px;
+    background-color: #a9bdca;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+   border-radius: 0.5rem;
+}
+input[type="button"]{
+
+width: 100%;
+height: 3em;
+font-weight: bold;
+background-color: rgb(250, 127, 154);
+    border: 0;
+    color: white;
+    font-family: -system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    cursor: pointer;
+  
+}
+
+img{
+    max-height: 50%;
+    width: 100%;
+}
